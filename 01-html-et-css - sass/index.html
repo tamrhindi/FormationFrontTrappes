@@ -1,0 +1,78 @@
+<!doctype html>
+<!--la balise "html" contient l'ensemble de ma page-->
+<html>
+    <!--la balise "head" contient l'entête de ma page-->
+    <head>
+        <!--permet dde preciser l'encodage de la page pour les accents-->
+        <meta charset="utf-8">
+        <title>Atelier 01</title>
+       
+        <link rel="stylesheet" href="./dist/css/style.min.css">
+    </head>
+
+    <!--la balise "body" le contenu notre page-->
+    <body>
+        <main>
+            <header>
+                <img src="../01-html-et-css - sass/dist/img/elbrus.jpg" alt="montagn elbrus">
+            </header>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Accueul</a></li>
+                    <li><a href="presentation.html">Presentation</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+     
+        <!--<nav>
+           <a href="index.html">Accueul</a> <a href="presentation.html">Presentation</a>
+                <a href="contact.html">Contact</a>
+           </nav>
+        -->
+                <section>
+                <h1>Balkars</h1>
+                <aside><img src="../01-html-et-css - sass/dist/img/plase.png" alt="plase du balkars"></aside>
+                <article>
+                    <p> Les Balkars (en langue karatchaï-balkar : singulier таулу- tawlu, pluriel таулула - tawlula, аланла - alanla) sont un peuple turc du Caucase du nord ou Ciscaucasie, qui forment avec les Kabardes la population titulaire de la Kabardino-Balkarie, république autonome de la Fédération de Russie. Leur langue appelée karatchaï-balkar fait partie du sous-groupe ponto-caspien du groupe nord-ouest des langues turques (groupe kyptchak), apparenté au tatar de Crimée, au bachkir et au koumyk.</p>
+                        <p> En 2002, quelque 105 000 Balkars vivaient dans la république de Kabardino-Balkarie.</p>
+                            
+                           <p> Il existe une opinion répandue chez certains scientifiques selon laquelle les Balkars seraient les descendants d'une tribu bulgare qui se serait déplacée vers le Caucase, après que les Huns eurent effectué leur migration vers l'ouest au début du IVe siècle (Bulgares blancs Onugoundouri).
+                            </p>
+                           <p> Le terme Balkar dériverait du mot Bolgar ou Bulgar ; les Balkars étant alors des Bulgares habitant primitivement dans la Grande Bulgarie, qui se fixèrent dans le Caucase, pendant que d'autres migraient vers les Balkans (Bulgarie) ou la Tatarie actuelle (sur la moyenne Volga).
+                          </p>  
+                            <p>En 1944, Staline accusa les Balkars de Kabardino-Balkarie de collaboration avec l'Allemagne nazie et ordonna la déportation de la population tout entière. Leur territoire fut alors rebaptisé RSSA1 de Kabardie. En 1957, la population balkare fut autorisée à réintégrer sa région d'origine, dont le nom de Kabardino-Balkarie fut dès lors rétabli. </p>
+                </article>
+            </section>
+            <footer>
+                <section class="gmap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765486.7675548312!2d44.0535818290771!3d43.427540936366356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x405a068666a62fc3%3A0xcf8a07cdf2651d05!2sNaltchik%2C+Kabardino-Balkarie%2C+Russie!5e0!3m2!1sfr!2sfr!4v1537794345910" width="250" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </section>
+                <section class="newsletter">
+                    <form name="nomduficher" method="POST"            
+                        action="ficherChargerDuTraitementDonnes.php">
+                        <fieldset>
+                            <legend>newsletter</legend>
+                            <input type="email"  placeholder="votre email">
+                            <input type="text" placeholder="votre nom">
+                            <input type="text"  placeholder="votre prenom">
+                            <input type="submit"    value="M'inscrire!">
+                        </fieldset>
+
+                    </form>
+                </section>
+                <section class="contact">
+                    <p>mon email:</p>
+                    <a href="mailto:hadid@mail.ru">hadid@mail.ru</a>
+                                  
+                </section>
+                <section>
+                    <address>
+                        <strong>Akboulatov</strong>
+                        <a href="#">0662203569</a><br>
+                        1 square du Maine 78310 Maurepas
+                    </address>
+                </section>
+            </footer>
+        </main>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+$clr-odin:red;
+$clr1: lighten($clr-odin, 25%);
+$clr2: darken($clr-odin, 50%);
+$clr3: lighten($clr-odin, 75%);
+
+/*---------------------------*/
+p {color: $clr1;}
+h1{color: yellow}
+section p{
+    color: $clr2;
+}
